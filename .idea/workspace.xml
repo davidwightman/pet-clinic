@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d647b5e9-f6ba-4d96-8321-542a236b4087" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/davidwightman/petclinic/model/Owner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/davidwightman/petclinic/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/davidwightman/petclinic/model/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/davidwightman/petclinic/model/PetType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/davidwightman/petclinic/model/Vet.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1WxXWDml0lpejECItyv1VdQfuof" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.davidwightman.petclinic.model" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d647b5e9-f6ba-4d96-8321-542a236b4087" name="Default Changelist" comment="" />
+      <created>1580092249011</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580092249011</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1094" y="227" key="#com.intellij.ide.util.MemberChooser" timestamp="1580658579140">
+      <screen x="0" y="23" width="1680" height="990" />
+    </state>
+    <state x="1094" y="227" key="#com.intellij.ide.util.MemberChooser/0.23.1680.990@0.23.1680.990" timestamp="1580658579140" />
+  </component>
+</project>
