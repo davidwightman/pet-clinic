@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d647b5e9-f6ba-4d96-8321-542a236b4087" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/org/davidwightman/petclinic/services/map/AbstractMapService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/org/davidwightman/petclinic/services/map/OwnerServiceMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/org/davidwightman/petclinic/services/map/PetServiceMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/org/davidwightman/petclinic/services/map/VetServiceMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/java/org/davidwightman/petclinic/controllers/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/java/org/davidwightman/petclinic/controllers/OwnerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/java/org/davidwightman/petclinic/controllers/VetController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/owners/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/vets/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -34,6 +38,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
   <component name="RecentsManager">
@@ -46,6 +51,26 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.davidwightman.petclinic.model" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="PetClinicApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.davidwightman.petclinic.PetClinicApplication" />
+      <module name="pet-clinic-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.davidwightman.petclinic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PetClinicApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -112,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582494317627</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Implement map based services">
+      <created>1582497696450</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1582497696450</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -122,7 +154,8 @@
     <MESSAGE value="Create interface for services" />
     <MESSAGE value="adding base entity" />
     <MESSAGE value="refactor services to common crud service" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor services to common crud service" />
+    <MESSAGE value="Implement map based services" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement map based services" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -143,35 +176,40 @@
       <screen x="0" y="23" width="1680" height="990" />
     </state>
     <state x="1004" y="405" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.23.1680.990@0.23.1680.990" timestamp="1580661092908" />
-    <state x="684" y="120" key="CommitChangelistDialog2" timestamp="1582494317434">
+    <state x="684" y="120" key="CommitChangelistDialog2" timestamp="1582497696256">
       <screen x="0" y="23" width="1680" height="992" />
     </state>
     <state x="684" y="120" key="CommitChangelistDialog2/0.23.1680.990@0.23.1680.990" timestamp="1580671290194" />
-    <state x="684" y="120" key="CommitChangelistDialog2/0.23.1680.992@0.23.1680.992" timestamp="1582494317434" />
-    <state width="694" height="267" key="GridCell.Tab.0.bottom" timestamp="1580668489566">
-      <screen x="0" y="23" width="1680" height="990" />
+    <state x="684" y="120" key="CommitChangelistDialog2/0.23.1680.992@0.23.1680.992" timestamp="1582497696256" />
+    <state width="841" height="267" key="GridCell.Tab.0.bottom" timestamp="1582501187787">
+      <screen x="0" y="23" width="1680" height="992" />
     </state>
     <state width="694" height="267" key="GridCell.Tab.0.bottom/0.23.1680.990@0.23.1680.990" timestamp="1580668489566" />
-    <state width="694" height="267" key="GridCell.Tab.0.center" timestamp="1580668489565">
-      <screen x="0" y="23" width="1680" height="990" />
+    <state width="841" height="267" key="GridCell.Tab.0.bottom/0.23.1680.992@0.23.1680.992" timestamp="1582501187787" />
+    <state width="841" height="267" key="GridCell.Tab.0.center" timestamp="1582501187786">
+      <screen x="0" y="23" width="1680" height="992" />
     </state>
     <state width="694" height="267" key="GridCell.Tab.0.center/0.23.1680.990@0.23.1680.990" timestamp="1580668489565" />
-    <state width="694" height="267" key="GridCell.Tab.0.left" timestamp="1580668489565">
-      <screen x="0" y="23" width="1680" height="990" />
+    <state width="841" height="267" key="GridCell.Tab.0.center/0.23.1680.992@0.23.1680.992" timestamp="1582501187786" />
+    <state width="841" height="267" key="GridCell.Tab.0.left" timestamp="1582501187786">
+      <screen x="0" y="23" width="1680" height="992" />
     </state>
     <state width="694" height="267" key="GridCell.Tab.0.left/0.23.1680.990@0.23.1680.990" timestamp="1580668489565" />
-    <state width="694" height="267" key="GridCell.Tab.0.right" timestamp="1580668489566">
-      <screen x="0" y="23" width="1680" height="990" />
+    <state width="841" height="267" key="GridCell.Tab.0.left/0.23.1680.992@0.23.1680.992" timestamp="1582501187786" />
+    <state width="841" height="267" key="GridCell.Tab.0.right" timestamp="1582501187786">
+      <screen x="0" y="23" width="1680" height="992" />
     </state>
     <state width="694" height="267" key="GridCell.Tab.0.right/0.23.1680.990@0.23.1680.990" timestamp="1580668489566" />
+    <state width="841" height="267" key="GridCell.Tab.0.right/0.23.1680.992@0.23.1680.992" timestamp="1582501187786" />
     <state x="887" y="218" key="NewModule_or_Project.wizard" timestamp="1580672008729">
       <screen x="0" y="23" width="1680" height="991" />
     </state>
     <state x="887" y="218" key="NewModule_or_Project.wizard/0.23.1680.991@0.23.1680.991" timestamp="1580672008729" />
-    <state x="826" y="257" key="Vcs.Push.Dialog.v2" timestamp="1580671293650">
-      <screen x="0" y="23" width="1680" height="990" />
+    <state x="826" y="257" key="Vcs.Push.Dialog.v2" timestamp="1582497701425">
+      <screen x="0" y="23" width="1680" height="992" />
     </state>
     <state x="826" y="257" key="Vcs.Push.Dialog.v2/0.23.1680.990@0.23.1680.990" timestamp="1580671293650" />
+    <state x="826" y="257" key="Vcs.Push.Dialog.v2/0.23.1680.992@0.23.1680.992" timestamp="1582497701425" />
     <state x="468" y="244" key="new project wizard" timestamp="1580671718203">
       <screen x="0" y="23" width="1680" height="990" />
     </state>
