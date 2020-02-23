@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d647b5e9-f6ba-4d96-8321-542a236b4087" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/org/davidwightman/petclinic/model/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/org/davidwightman/petclinic/services/CrudService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/org/davidwightman/petclinic/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/org/davidwightman/petclinic/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/org/davidwightman/petclinic/services/OwnerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/org/davidwightman/petclinic/services/OwnerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/org/davidwightman/petclinic/services/PetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/org/davidwightman/petclinic/services/PetService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/org/davidwightman/petclinic/services/VetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/org/davidwightman/petclinic/services/VetService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580670724073</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="adding base entity">
+      <created>1580671290366</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1580671290366</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -104,7 +113,8 @@
     <MESSAGE value="adding pojos." />
     <MESSAGE value="added multi-module maven builds" />
     <MESSAGE value="Create interface for services" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create interface for services" />
+    <MESSAGE value="adding base entity" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding base entity" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -124,10 +134,10 @@
       <screen x="0" y="23" width="1680" height="990" />
     </state>
     <state x="1004" y="405" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.23.1680.990@0.23.1680.990" timestamp="1580661092908" />
-    <state x="684" y="120" key="CommitChangelistDialog2" timestamp="1580670723856">
+    <state x="684" y="120" key="CommitChangelistDialog2" timestamp="1580671290194">
       <screen x="0" y="23" width="1680" height="990" />
     </state>
-    <state x="684" y="120" key="CommitChangelistDialog2/0.23.1680.990@0.23.1680.990" timestamp="1580670723856" />
+    <state x="684" y="120" key="CommitChangelistDialog2/0.23.1680.990@0.23.1680.990" timestamp="1580671290194" />
     <state width="694" height="267" key="GridCell.Tab.0.bottom" timestamp="1580668489566">
       <screen x="0" y="23" width="1680" height="990" />
     </state>
@@ -144,13 +154,17 @@
       <screen x="0" y="23" width="1680" height="990" />
     </state>
     <state width="694" height="267" key="GridCell.Tab.0.right/0.23.1680.990@0.23.1680.990" timestamp="1580668489566" />
-    <state x="826" y="257" key="Vcs.Push.Dialog.v2" timestamp="1580670730033">
+    <state x="887" y="218" key="NewModule_or_Project.wizard" timestamp="1580672008729">
+      <screen x="0" y="23" width="1680" height="991" />
+    </state>
+    <state x="887" y="218" key="NewModule_or_Project.wizard/0.23.1680.991@0.23.1680.991" timestamp="1580672008729" />
+    <state x="826" y="257" key="Vcs.Push.Dialog.v2" timestamp="1580671293650">
       <screen x="0" y="23" width="1680" height="990" />
     </state>
-    <state x="826" y="257" key="Vcs.Push.Dialog.v2/0.23.1680.990@0.23.1680.990" timestamp="1580670730033" />
-    <state x="468" y="244" key="new project wizard" timestamp="1580659609891">
+    <state x="826" y="257" key="Vcs.Push.Dialog.v2/0.23.1680.990@0.23.1680.990" timestamp="1580671293650" />
+    <state x="468" y="244" key="new project wizard" timestamp="1580671718203">
       <screen x="0" y="23" width="1680" height="990" />
     </state>
-    <state x="468" y="244" key="new project wizard/0.23.1680.990@0.23.1680.990" timestamp="1580659609891" />
+    <state x="468" y="244" key="new project wizard/0.23.1680.990@0.23.1680.990" timestamp="1580671718203" />
   </component>
 </project>
