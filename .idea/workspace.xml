@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d647b5e9-f6ba-4d96-8321-542a236b4087" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/org/davidwightman/petclinic/services/CrudService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/org/davidwightman/petclinic/services/map/AbstractMapService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/org/davidwightman/petclinic/services/map/OwnerServiceMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/org/davidwightman/petclinic/services/map/PetServiceMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/org/davidwightman/petclinic/services/map/VetServiceMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/org/davidwightman/petclinic/services/OwnerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/org/davidwightman/petclinic/services/OwnerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/org/davidwightman/petclinic/services/PetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/org/davidwightman/petclinic/services/PetService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/org/davidwightman/petclinic/services/VetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/org/davidwightman/petclinic/services/VetService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580671290366</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="refactor services to common crud service">
+      <created>1582494317627</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1582494317627</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -114,14 +121,16 @@
     <MESSAGE value="added multi-module maven builds" />
     <MESSAGE value="Create interface for services" />
     <MESSAGE value="adding base entity" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding base entity" />
+    <MESSAGE value="refactor services to common crud service" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor services to common crud service" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1094" y="227" key="#com.intellij.ide.util.MemberChooser" timestamp="1580671119930">
-      <screen x="0" y="23" width="1680" height="990" />
+    <state x="1094" y="227" key="#com.intellij.ide.util.MemberChooser" timestamp="1582497398796">
+      <screen x="0" y="23" width="1680" height="992" />
     </state>
     <state x="1094" y="227" key="#com.intellij.ide.util.MemberChooser/0.23.1680.990@0.23.1680.990" timestamp="1580671119930" />
+    <state x="1094" y="227" key="#com.intellij.ide.util.MemberChooser/0.23.1680.992@0.23.1680.992" timestamp="1582497398796" />
     <state x="809" y="450" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1580661070751">
       <screen x="0" y="23" width="1680" height="990" />
     </state>
@@ -134,10 +143,11 @@
       <screen x="0" y="23" width="1680" height="990" />
     </state>
     <state x="1004" y="405" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.23.1680.990@0.23.1680.990" timestamp="1580661092908" />
-    <state x="684" y="120" key="CommitChangelistDialog2" timestamp="1580671290194">
-      <screen x="0" y="23" width="1680" height="990" />
+    <state x="684" y="120" key="CommitChangelistDialog2" timestamp="1582494317434">
+      <screen x="0" y="23" width="1680" height="992" />
     </state>
     <state x="684" y="120" key="CommitChangelistDialog2/0.23.1680.990@0.23.1680.990" timestamp="1580671290194" />
+    <state x="684" y="120" key="CommitChangelistDialog2/0.23.1680.992@0.23.1680.992" timestamp="1582494317434" />
     <state width="694" height="267" key="GridCell.Tab.0.bottom" timestamp="1580668489566">
       <screen x="0" y="23" width="1680" height="990" />
     </state>
